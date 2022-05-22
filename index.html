@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Exercicio Teste HTML e CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Cadastro de cliente</h1>
+    <div class="formulario-group">
+        <form class="dados-group" method="post">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="texto" id="nome" name="nome_usuario" placeholder="seu nome">
+
+            </div>
+            <div>
+                <label for="CPF">CPF:</label>
+                <input type="texto" id="cpf" name="cpf_usuario" placeholder="seu CPF">
+            </div>
+            <div>
+                <label for="nascimento">Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento_usuario" placeholder="data">
+            </div>
+            <div>
+                <label for="sexo">Sexo: </label>
+                <input type="texto" id="sexo" name="sexo_usuario" placeholder="Sexo">
+            </div>
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="texto" id="telefone" name="telefone_usuario">
+            </div>
+            <div>
+                <label for="celular">Celular:</label>
+                <input type="texto" id="celular" name="celular_usuario">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email_usuario">
+            </div>
+
+
+        </form>
+        <div class="endereço-group">
+            <label class="col-md-2 control-label" for="prependedtext">Endereço</label>
+
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-addon">Rua</span>
+                    <input id="rua" name="rua" class="form-control" placeholder="" required="" readonly="readonly"
+                        type="text">
+                </div>
+            </div>
+
+
+            <div class="col-md-2">
+                <div class="input-group">
+                    <span class="input-group-addon">Nº <h11>*</h11></span>
+                    <input id="numero" name="numero" class="form-control" placeholder="" required="" type="text">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="input-group">
+                    <span class="input-group-addon">Bairro</span>
+                    <input id="bairro" name="bairro" class="form-control" placeholder="" required="" readonly="readonly"
+                        type="text">
+                </div>
+            </div>
+
+            <label class="col-md-2 control-label" for="prependedtext"></label>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-addon">Cidade</span>
+                    <input id="cidade" name="cidade" class="form-control" placeholder="" required="" readonly="readonly"
+                        type="text">
+                </div>
+
+            </div>
+
+            <div class="col-md-2">
+                <div class="input-group">
+                    <span class="input-group-addon">Estado</span>
+                    <input id="estado" name="estado" class="form-control" placeholder="" required="" readonly="readonly"
+                        type="text">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <button>
+        <a href="#" class="buttonClass">Enviar</a>
+    </button>
+    
+
+
+</body>
+
+</html>
