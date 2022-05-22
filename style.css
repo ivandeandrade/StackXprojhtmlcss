@@ -1,0 +1,72 @@
+/* CSS reset */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/*body*/
+h1 {
+  font-size: 25px;
+  font-family: Arial;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  background: #cddbde;
+  border-width: 3px;
+  color: #000000;
+  text-shadow: 0.5px 0.5px #454546;
+  opacity: 80%;
+}
+
+.formulario-group {
+  width: 70%;
+  color: #000000;
+  text-shadow: 0.5px 0.5px #a9a6a6;
+  margin: 10px;
+}
+
+.dados-group {
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px 0px #a8a8a899 inset;
+  background: #cddbde;
+  padding: 8px 5px;
+}
+
+.endereço-group {
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  background: #cddbde;
+  padding: 8px 5px;
+}
+
+input:not([type="checkbox"]) {
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #b2b2b2;
+
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+
+  -webkit-box-shadow: 0px 1px 4px 0px #a8a8a899 inset;
+  box-shadow: 0px 1px 4px 0px #a8a8a899 inset;
+
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+::placeholder {
+  font-style: italic;
+}
